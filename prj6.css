@@ -1,0 +1,196 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 1;
+    transition: background-color 0.3s, color 0.3s;
+}
+.darkMode 
+{
+    background-color: black;
+    color: white;
+}
+.whiteMode
+{
+    background-color: white;
+    color: dark;
+}
+
+#titleCon
+{
+    padding: 0px;
+    margin-bottom: 40px;
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+#box2
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#box3
+{
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+}
+#titleCon h1
+{
+    font-size: 70px;
+}
+#actions
+{
+    /* background-image:linear-gradient(to top , black  , rgb(19, 19, 19)  , rgb(29, 29, 29)  ); */
+    height: auto;
+    border: solid;
+    border-radius: 18px;
+    border-width: 1px;
+    padding: 20px;
+}
+.actionsDrak
+{
+    border-color: white;
+}
+.actionsWhite
+{
+    border-color: black;
+}
+
+
+textarea
+{
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(253, 243, 164, 0);
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    font-size: 25px;
+}
+textarea:focus
+{
+    border-bottom-color: rgb(255, 164, 8);
+}
+.textareaBlack
+{
+    color: white;
+    border-bottom-color: rgb(255, 255, 255);
+}
+.textareaWhite
+{
+    color: black;
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+#history
+{
+    font-family: 'Courier New', monospace;
+}
+
+.template
+{
+    font-size: 25px;
+    display: flex;
+
+    
+}
+.btn
+{
+    min-width: 60px;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 25px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:active
+{
+    color: orange ;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.1s;
+}
+.btnBlack
+{
+    color: white;
+    background-color: rgb(38, 38, 38);
+}
+.btnBlack:hover
+{
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+}
+.btnWhite
+{
+    color: black;
+    background-color: rgb(219, 219, 219);
+}
+.btnWhite:hover
+{
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+.removeBtn
+{
+    height: auto;
+    width: auto;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 18px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+/* .removeBtn:hover
+{
+   box-shadow: 0px 0px 10px 1px red;
+}
+.removeBtn:active
+{
+    box-shadow: 0px 0px 25px 1px red;
+    transition: 0.1s;
+} */
+
+
+.todo{
+    margin-right: 20px;  
+    margin-left: 20px;  
+}
+.todoChecked
+{
+    color: grey;   
+}
+#userBox
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#history
+{
+ overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+#mode
+{
+    background-color: transparent;
+    border: none;
+    /* border-color: white; */
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor:pointer;
+}
