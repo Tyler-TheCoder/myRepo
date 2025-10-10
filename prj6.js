@@ -71,8 +71,9 @@ mode.addEventListener("click" , function()
     }
 });
 
-
+// flexible textArea 
 textArea.addEventListener("input", function()
 {
+
 
 });
