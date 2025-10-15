@@ -6,6 +6,7 @@ body
     flex-shrink: 0;
     flex-grow: 1;
     transition: background-color 0.3s, color 0.3s;
+    accent-color: orange;
 }
 .darkMode 
 {
@@ -64,6 +65,7 @@ textarea
 {
     resize: none;
     overflow: hidden;
+    /* height: auto; */
     width: 100%;
     background-color: rgba(253, 243, 164, 0);
     outline: none;
@@ -72,6 +74,7 @@ textarea
     border-bottom: solid;
     border-bottom-width: 1px;
     font-size: 25px;
+    padding: 5px;
 }
 textarea:focus
 {
@@ -170,7 +173,7 @@ textarea:focus
 }
 .todoChecked
 {
-    color: grey;   
+    color: rgb(128, 128, 128);   
 }
 #userBox
 {
@@ -193,4 +196,17 @@ textarea:focus
     height: 50px;
     font-size: 25px;
     cursor:pointer;
+}
+
+
+.menu
+{
+    font-size: 20px;
+    background-color: rgb(24, 27, 34);
+    color: white;
+    outline: none;
+   border: none ;
+   border-radius: 18px;
+   height: 30px;
+   width: 45px;
 }
