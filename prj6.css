@@ -108,10 +108,7 @@ textarea:focus
 {
     min-width: 60px;
     width: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 10px;
     border: none;
     border-radius: 25px;
     transition-duration: 0.1s;
